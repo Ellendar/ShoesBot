@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.gmail.ellendar</groupId>
+  <artifactId>shoesbot</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <name>ShoesBot</name>
+  <url>https://github.com/Ellendar/ShoesBot</url>
+  <description>MTGO Bot</description> 
+
+  <dependencies>
+    <dependency>
+      <groupId>commons-util</groupId>
+      <artifactId>commons-util</artifactId>
+      <version>final</version>
+    </dependency>
+    <dependency>
+      <groupId>com.j256.ormlite</groupId>
+      <artifactId>ormlite-jdbc</artifactId>
+      <version>4.42</version>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+      <scope>test</scope>
+    </dependency>
+     <dependency>
+     <groupId>org.slf4j</groupId>
+     <artifactId>slf4j-api</artifactId>
+     <version>1.7.5</version>
+   </dependency>
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>3.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
